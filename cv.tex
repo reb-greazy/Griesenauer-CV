@@ -1,0 +1,43 @@
+% !TEX TS-program = luatex
+% Awesome Source CV LaTeX Template
+%
+% This template has been downloaded from:
+% https://github.com/darwiin/awesome-neue-latex-cv
+%
+% Author:
+% Christophe Roger (Darwiin)
+%
+% Template license:
+% CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0/)
+
+\documentclass[localFont,alternative]{yaac-another-awesome-cv}
+\name{Rebekah}{Griesenauer, PhD}
+%\tagline{Architecte Logiciel | Développeur/Concepteur Java/JEE}
+%\photo{2.5cm}{darwiin}
+\socialinfo{
+	\linkedin{rebekah-griesenauer}
+	\github{reb-greazy}
+	\orcidid{0000-0002-9352-9813} \\
+	%\infos{https://orcid.org/0000-0002-9352-9813}
+	\smartphone{+636 233 1271}
+	\email{rebekah.griesenauer@gmail.com}\\
+	\address{12603 Fee Fee Road, St. Louis, MO 63146}\\
+	
+}
+
+\begin{document}
+	\makecvheader
+	\makecvfooter
+		{\textsc{\today}} % \selectlanguage{english}\today
+		{\textsc{Griesenauer - R\'esum\'e}}
+		{\thepage}
+% 	\input{section_headline}	%Summary
+	\input{section_education}			% Education
+	\input{section_skills.tex}			% Skills
+	\input{section_experience_short}			% Experience
+	\input{section_projects.tex}			%Projects
+
+	%\input{section_references} 				% References
+
+
+\end{document}
